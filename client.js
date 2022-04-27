@@ -1,4 +1,4 @@
-const socket = io("http://localhost:8000");
+const socket = io("https://my-chats-application.netlify.app/");
 
 let form = document.getElementById("form");
 let inputMsg = document.getElementById("inputMsg");
