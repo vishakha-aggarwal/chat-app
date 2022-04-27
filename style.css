@@ -1,0 +1,118 @@
+body {
+    background-color: rgba(1, 2, 8, 0.956);
+}
+
+.header{
+    margin: 10px;
+}
+
+.heading{
+    width: 80%;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 40px;
+    color:azure;
+    font-family: 'Courgette', cursive;
+}
+
+.container{
+    margin-left: 15%;
+    border: 2px solid black;
+    width: 75vw;
+    height: 75vh;
+    background-image: url("container.png");
+    /* background-color:rgba(182, 53, 152, 0.668); */
+    overflow-y: scroll;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: rgb(123, 154, 255) 3px 3px 15px 2px;
+
+}
+
+section{
+    text-align: center;
+    background-color: rgba(154, 151, 208, 0.929);
+    border: 1px solid rgb(22, 2, 99);
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    width: 15%;
+    font-family: 'Courgette', cursive;
+    height: 75vh;
+    float: left;
+    padding: 10px;
+    overflow-y: scroll;
+    font-size: 18px;
+    color:rgb(10, 63, 74);
+    box-shadow: rgb(174, 22, 22) -2px 0px 15px 3px;
+
+}
+
+.box{
+    color: black;
+    border: 1.5px solid rgba(1, 1, 0, 0.82);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 4px;
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(133, 255, 139);
+}
+
+.left{
+    float: left;
+    clear: both;
+    border: 2px solid rgb(105, 163, 19);
+    padding: 15px;
+    background-color: rgba(143, 229, 255, 0.744);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.right{
+    float: right;
+    clear: both;
+    border: 2px solid rgb(105, 163, 19);
+    padding: 15px;
+    background-color: rgba(255, 242, 143, 0.882);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+form{
+    margin-left: 15%;
+    margin-top: 20px;
+    width: 75vw;
+    height: 75vh;
+}
+
+input{
+    padding: 15px;
+    border: 1px dotted black;
+    border-radius: 10px;
+    width: 85%;
+    font-size: 15px;
+}
+
+.btn{
+    padding: 15px;
+    border: 2px solid green;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(133, 255, 139);
+    cursor: pointer;
+}
+
+.logout{
+    border: 2px solid rgb(0, 255, 34);
+    background-color: rgb(182, 239, 220);
+    color: black;
+    margin-left: 23%;
+    border-radius: 10px;
+    padding: 8px;
+    width: 15%;
+    cursor: pointer;
+    font-size: 25px;
+    font-family:cursive;
+}

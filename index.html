@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <title>My ChatApp</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+</head>
+<body>
+    <div class = "header">
+        <span class = "heading">My Chat App</span> 
+        <button class = "logout">Logout</button>
+    </div>
+    <section class = "section">
+    <div class="secHeading" style="font-family: 'Courgette', cursive;">People in the Live chat</div>
+    </section>
+    <div class="container">    
+    </div>
+    <div class = "send">
+        <form id = "form" action="#" >
+            <input type = "text" placeholder = "Enter the message" name = "inputMsg" id = "inputMsg">
+            <button type = "submit" class = "btn">Send</button>
+        </form>
+    </div>
+</body>
+</html>
