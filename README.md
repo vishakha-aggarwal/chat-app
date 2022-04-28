@@ -2,7 +2,8 @@
 
 ## What's this? 🙄
 
-#### - It is a personalized, easy to use, and realiable chat application which has many features like draw, remove, upload, download, create sticky notes. 
+#### - It is a personalized, easy to use, and real time chat application which can be used to chat with multiple people at the same time.
+#### - It also shows the list of people which are in the chat room at particular instance.
 #### - It is created with the help of socket-io module.
 
 ## 🟢 Glimpse of the application 
