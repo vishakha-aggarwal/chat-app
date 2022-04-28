@@ -1,14 +1,6 @@
-let express = require("express");
-let socket = require("socket.io");
-
-let app = express();
-let port = process.env.PORT || 8000;
-
-let server = app.listen(port, ()=>{
-    console.log("Listening at port: ", port);
-})
-
-let io = socket(server);
+let io = require("socket.io")(8000, {
+    cors: { origin: '*' }
+});
 
 const users = {};
 let list = [];

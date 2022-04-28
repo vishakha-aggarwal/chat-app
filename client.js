@@ -1,12 +1,12 @@
-const socket = io("https://my-chats-application.netlify.app/");
+const socket = io("http://localhost:8000");
 
 let form = document.getElementById("form");
 let inputMsg = document.getElementById("inputMsg");
 let logout = document.querySelector("button.logout");
 
 function close_window() {
-    if (confirm("Are you sure you want to leave? "))
-        close();
+    if(confirm("Are you sure you want to leave? "))
+        window.close();
 }
 
 logout.addEventListener("click", close_window);
@@ -42,7 +42,7 @@ function printMessage(message, position) {
 
 let name = prompt("Enter your name");
 while(name == null || name == "")
-    name = prompt("Name can't be empty... Enter something!");
+name = prompt("Name can't be empty... Enter something!");
 
 socket.emit("new-user-joined", name); 
 

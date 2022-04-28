@@ -1,5 +1,6 @@
 body {
     background-color: rgba(1, 2, 8, 0.956);
+    overflow: hidden;
 }
 
 .header{
@@ -92,7 +93,8 @@ input{
     border: 1px dotted black;
     border-radius: 10px;
     width: 85%;
-    font-size: 15px;
+    font-size: 16px;
+    color: #000;
 }
 
 .btn{
